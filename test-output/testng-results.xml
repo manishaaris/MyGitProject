@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16023" started-at="2019-11-14T04:58:17Z" finished-at="2019-11-14T04:58:33Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="16023" started-at="2019-11-14T04:58:17Z" finished-at="2019-11-14T04:58:33Z">
+      <class name="org.homeproject.demo.BaseReportClass">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:org.homeproject.demo.BaseReportClass@239963d8]" name="Setup" is-config="true" duration-ms="188" started-at="2019-11-14T04:58:17Z" finished-at="2019-11-14T04:58:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="Clean()[pri:0, instance:org.homeproject.demo.BaseReportClass@239963d8]" name="Clean" is-config="true" duration-ms="218" started-at="2019-11-14T04:58:33Z" finished-at="2019-11-14T04:58:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Clean -->
+      </class> <!-- org.homeproject.demo.BaseReportClass -->
+      <class name="org.homeproject.demo.ParameterTest">
+        <test-method status="PASS" signature="parameterTest1(java.lang.String)[pri:0, instance:org.homeproject.demo.ParameterTest@57fffcd7]" name="parameterTest1" duration-ms="1" started-at="2019-11-14T04:58:33Z" finished-at="2019-11-14T04:58:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manisha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parameterTest1 -->
+        <test-method status="PASS" signature="GenerateReport(org.testng.ITestResult)[pri:0, instance:org.homeproject.demo.ParameterTest@57fffcd7]" name="GenerateReport" is-config="true" duration-ms="0" started-at="2019-11-14T04:58:33Z" finished-at="2019-11-14T04:58:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=parameterTest1 status=SUCCESS method=ParameterTest.parameterTest1(java.lang.String)[pri:0, instance:org.homeproject.demo.ParameterTest@57fffcd7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GenerateReport -->
+      </class> <!-- org.homeproject.demo.ParameterTest -->
+      <class name="org.homeproject.demo.GetAllLinks">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.homeproject.demo.GetAllLinks@3abbfa04]" name="beforeMethod" is-config="true" duration-ms="14202" started-at="2019-11-14T04:58:17Z" finished-at="2019-11-14T04:58:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:org.homeproject.demo.GetAllLinks@3abbfa04]" name="f" duration-ms="721" started-at="2019-11-14T04:58:31Z" finished-at="2019-11-14T04:58:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.homeproject.demo.GetAllLinks@3abbfa04]" name="afterMethod" is-config="true" duration-ms="1057" started-at="2019-11-14T04:58:32Z" finished-at="2019-11-14T04:58:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="GenerateReport(org.testng.ITestResult)[pri:0, instance:org.homeproject.demo.GetAllLinks@3abbfa04]" name="GenerateReport" is-config="true" duration-ms="19" started-at="2019-11-14T04:58:33Z" finished-at="2019-11-14T04:58:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=f status=SUCCESS method=GetAllLinks.f()[pri:0, instance:org.homeproject.demo.GetAllLinks@3abbfa04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GenerateReport -->
+      </class> <!-- org.homeproject.demo.GetAllLinks -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
