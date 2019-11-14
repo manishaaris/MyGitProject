@@ -38,7 +38,7 @@ public class loginTest extends BaseReportClass{
 	
   @Test
   public void login1() {
-	  extent1.createTest("login1");
+	 extent1.createTest("login1");
 	 /*try {
 		 
 		 String actualString = driver.findElement(By.xpath("//h2['class=inlineBlock _3ma _6n _6s _6v']")).getText();
